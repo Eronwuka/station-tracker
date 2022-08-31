@@ -1,5 +1,5 @@
 body{
-    background-image:url("pictures/people-train.jpg");
+    background-image:url("train.jpg");
     text-align: center;
     color: red;
     background-size: cover;
@@ -25,25 +25,29 @@ button{
     color: white;
     font-weight: bold;
     width: 200px;
-    display:flex;
+    
     margin: auto;
     align-items: center;
     flex-direction: column;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
 #increment-btn{
-             background: darkred;    
+             background: darkred;
+             width: 200px;    
 }
 
 #save-btn{
     background: darkgreen;
-    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
 
 #save-el {
     font-weight: bold;
+    color:red;
+
 }
 
 
